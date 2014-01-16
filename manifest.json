@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "One-click Kittens",
-  "description": "This extension demonstrates a browser action with kittens.",
+  "name": "InstaLinkShareify",
+  "description": "Send a link to a Facebook friend with just one click!.",
   "version": "1.0",
 
   "permissions": [

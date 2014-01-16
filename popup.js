@@ -1,5 +1,4 @@
 function sendLink() {
-  console.log('blah');
   chrome.tabs.query({currentWindow: true, active: true}, function(tabs) {
     var tabUrl = tabs[0].url;
     var newUrl = 'http://www.facebook.com/dialog/send?'
@@ -12,8 +11,4 @@ function sendLink() {
   });
 }
 
-console.log('blahalskdjfalskjdf');
-
 document.getElementById('sendButton').addEventListener('click', sendLink);
-
-console.log('added');
